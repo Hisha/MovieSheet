@@ -4,8 +4,6 @@ import com.HishaTech.java.moviesheet.AppConstants;
 import com.HishaTech.java.moviesheet.Folders;
 import com.HishaTech.java.moviesheet.Prefs;
 
-import javafx.application.Platform;
-import javafx.concurrent.Task;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
