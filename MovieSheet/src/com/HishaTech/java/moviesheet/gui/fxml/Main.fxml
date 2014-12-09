@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="apMain" minHeight="600.0" minWidth="800.0"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="com.HishaTech.java.moviesheet.gui.Controller_Main">
+	<children>
+		<Button fx:id="btnClose" layoutX="741.0" layoutY="561.0"
+			minHeight="25.0" minWidth="45.0" mnemonicParsing="false" onAction="#btnClose_click" />
+		<Label fx:id="lblEnterFolder" layoutX="14.0" layoutY="14.0" />
+		<TextField fx:id="txtMovieFolder" layoutX="124.0" layoutY="10.0"
+			prefHeight="25.0" prefWidth="207.0" />
+		<Label fx:id="lblDefaultFolder" alignment="CENTER" layoutX="14.0"
+			layoutY="35.0" prefHeight="17.0" prefWidth="317.0" />
+		<Button fx:id="btnClearText" layoutX="72.0" layoutY="62.0"
+			minHeight="25.0" minWidth="70.0" mnemonicParsing="false"
+			onAction="#btnClearText_click" />
+		<Button fx:id="btnScan" layoutX="173.0" layoutY="62.0"
+			minHeight="25.0" minWidth="70.0" mnemonicParsing="false" onAction="#btnScan_click" />
+		<TextArea fx:id="taMovieFolders" layoutX="17.0" layoutY="100.0"
+			prefHeight="482.0" prefWidth="317.0" />
+		<Line fx:id="lnMovieFolder" endY="550.0" layoutX="350.0" layoutY="25.0" />
+	</children>
+</AnchorPane>
